@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Monday{
+    display: none;
+    color: black;
+
+}
+#Tuesday{
+    display: none;
+    color: black;
+}
+#Wednesday{
+    display: none;
+    color: black;
+}
+#Thursday{
+    display: none;
+    color: black;
+}
+#Friday{
+    display: none;
+    color: black;
+}
+#Monday1{
+    display: none;
+    color: black;
+}
+#Tuesday1{
+    display: none;
+    color: black;
+
+}
+#Wednesday1{
+    display: none;
+    color: black;
+
+}
+#Thursday1{
+    display: none;
+    color: black;
+
+}
+#Friday1{
+    display: none;
+    color: black;
+
+}
+details{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    background-color: blue;
+    margin-top: 10px;
+    height: 6vh;
+    width: 30vh;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    
+}
+button{
+    background-color: blue;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 20vh;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    align-content: center;
+}
