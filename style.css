@@ -18,6 +18,7 @@ nav h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #Monday{
     display: none;
@@ -64,6 +65,9 @@ nav h2{
     color: black;
 
 }
+#nonedisplay{
+    display: block;
+}
 details{
     display: flex;
     flex-direction: column;
@@ -84,6 +88,16 @@ button{
     margin-top: 4vh;
     height: 10vh;
     width: 20vh;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    align-content: center;
+}
+#close1{
+    background-color: blue;
+    margin-top: 4vh;
+    height: 5vh;
+    width: 10vh;
     border: none;
     border-radius: 25px;
     color: white;
