@@ -18,12 +18,16 @@
         <h2>College Routine</h2>
     </nav>
     <div id="main">
+       
         <details>
             <summary>Select Your Section</summary>
             <details onclick="document.getElementById('nonedisplay').style.display='none'">
                 <summary>AIML 1AX</summary>
+                <!-- <button id="close1" onclick="closed1ax()">&#10006</button> -->
+                <div id="aiml1ax">
                 <button onclick="document.getElementById('Monday').style.display='block'">Monday</button>
                     <div id="Monday">
+                        <button id="close1" onclick="close1()">&#10006</button>
            <button onclick="tex1MAX()">10:00 - 10:40</button>
            <div id="tex1MAX"></div>
            <button onclick="text2MAX()">10:40 - 11:20</button>
@@ -42,6 +46,7 @@
            </div>
                 <button onclick="document.getElementById('Tuesday').style.display='block'">Tuesday</button>
                     <div id="Tuesday">
+                        <button id="close1" onclick="close2()">&#10006</button>
            <button onclick="tex1TUAX()">10:00 - 10:40</button>
            <div id="tex1TUAX"></div>
            <button onclick="text2TUAX()">10:40 - 11:20</button>
@@ -58,12 +63,14 @@
            </div>
                 <button onclick="document.getElementById('Wednesday').style.display='block'">Wednesday</button>
                     <div id="Wednesday">
+                        <button id="close1" onclick="close3()">&#10006</button>
            <button onclick="tex1WAX()">10:00 - 12:00</button>
            <div id="tex1WAX"></div>
         
            </div>
                 <button onclick="document.getElementById('Thursday').style.display='block'">Thursday</button>
                     <div id="Thursday">
+                        <button id="close1" onclick="close4()">&#10006</button>
            <button onclick="tex1THAX()">10:00 - 10:40</button>
            <div id="tex1THAX"></div>
            <button onclick="text2THAX()">10:40 - 11:20</button>
@@ -75,11 +82,12 @@
            </div>
                 <button onclick="document.getElementById('Friday').style.display='block'">Friday</button>
                     <div id="Friday">
+                        <button id="close1" onclick="close5()">&#10006</button>
            <button onclick="tex1FAX()">10:00 - 10:40</button>
            <div id="tex1FAX"></div>
            <button onclick="text2FAX()">10:40 - 11:20</button>
            <div id="text2FAX"></div>
-           <button onclick="text3FAX">11:20 - 12:40</button>
+           <button onclick="text3FAX()">11:20 - 12:40</button>
            <div id="text3FAX"></div>
     
            <button onclick="text5FAX()">12:40 - 13:20</button>
@@ -88,98 +96,90 @@
            <div id="text6FAX"></div>
            <button onclick="text7FAX()">14:00 - 14:40</button>
            <div id="text7FAX"></div>
-
+           <button onclick="text8FAX()">14:40 - 15:20</button>
+           <div id="text8FAX"></div>
+</div>
                
            
            </details>
            <details id="nonedisplay">
             <summary>AIML 1AY</summary>
+            <!-- <button id="close1" onclick="closed1ay()">&#10006</button> -->
+            <div id="aiml1ay">
             <button onclick="document.getElementById('Monday1').style.display='block'">Monday</button>
             <div id="Monday1">
-            <button>10:00 - 10:40</button>
+                <button id="close1" onclick="close6()">&#10006</button>
+            <button onclick="tex1MAY()">10:00 - 10:40</button>
             <div id="tex1MAY"></div>
-            <button>10:40 - 11:20</button>
+            <button onclick="text2MAY()">10:40 - 12:40</button>
             <div id="text2MAY"></div>
-            <button>12:00 - 12:40</button>
-            <div id="text3MAY"></div>
-            <button>12:40 - 13:20</button>
-            <div id="text4MAY"></div>
-            <button>13:20 - 14:00</button>
+            <button onclick="text5MAY()">12:40 - 13:20</button>
             <div id="text5MAY"></div>
-            <button>14:00 - 14:40</button>
+            <button onclick="text6MAY()">13:20 - 14:00</button>
             <div id="text6MAY"></div>
-            <button>14:00 - 14:40</button>
+            <button onclick="text7MAY()">14:00 - 14:40</button>
             <div id="text7MAY"></div>
             </div>
             <button onclick="document.getElementById('Tuesday1').style.display='block'">Tuesday</button>
             <div id="Tuesday1">
+                <button id="close1" onclick="close7()">&#10006</button>
             <button onclick="tex1TUAY()">10:00 - 10:40</button>
             <div id="tex1TUAY"></div>
             <button onclick="text2TUAY()">10:40 - 11:20</button>
             <div id="text2TUAY"></div>
-            <button onclick="text3TUAY()">12:00 - 12:40</button>
+            <button onclick="text3TUAY()">11:20 - 12:00</button>
             <div id="text3TUAY"></div>
-            <button onclick="text4TUAY()">12:40 - 13:20</button>
+            <button onclick="text4TUAY()">12:00 - 12:40</button>
             <div id="text4TUAY"></div>
-            <button onclick="text5TUAY()">13:20 - 14:00</button>
-            <div id="text5TUAY"></div>
-            <button onclick="text6TUAY()">14:00 - 16:00</button>
-            <div id="text6TUAY"></div>
+
             </div>
             <button onclick="document.getElementById('Wednesday1').style.display='block'">Wednesday</button>
             <div id="Wednesday1">
-            <button>10:00 - 10:40</button>
+                <button id="close1" onclick="close8()">&#10006</button>
+            <button onclick="tex1WAY()">10:00 - 11:20</button>
             <div id="tex1WAY"></div>
-            <button>10:40 - 11:20</button>
-            <div id="text2WAY"></div>
-            <button>12:00 - 12:40</button>
+            <button onclick="text3WAY()">11:20 - 12:00</button>
             <div id="text3WAY"></div>
-            <button>12:40 - 13:20</button>
+            <button onclick="text4WAY()">12:00 - 14:00</button>
             <div id="text4WAY"></div>
-            <button>13:20 - 14:00</button>
-            <div id="text5WAY"></div>
-            <button>14:00 - 14:40</button>
-            <div id="text6WAY"></div>
-            <button>14:00 - 14:40</button>
-            <div id="text7WAY"></div>
             </div>
             <button onclick="document.getElementById('Thursday1').style.display='block'">Thursday</button>
             <div id="Thursday1">
-            <button>10:00 - 10:40</button>
+                <button id="close1" onclick="close9()">&#10006</button>
+            <button onclick="tex1THAY()">10:00 - 10:40</button>
             <div id="tex1THAY"></div>
-            <button>10:40 - 11:20</button>
+            <button onclick="text2THAY()">10:40 - 11:20</button>
             <div id="text2THAY"></div>
-            <button>12:00 - 12:40</button>
-            <div id="text3THAY"></div>
-            <button>12:40 - 13:20</button>
+            <button onclick="text3THAY()">11:20 - 12:00</button>
+            <div id="text3THAY" ></div>
+            <button onclick="text4THAY()">12:00 - 14:00</button>
             <div id="text4THAY"></div>
-            <button>13:20 - 14:00</button>
-            <div id="text5THAY"></div>
-            <button>14:00 - 14:40</button>
-            <div id="text6THAY"></div>
-            <button>14:00 - 14:40</button>
-            <div id="text7THAY"></div>
+
             </div>
             <button onclick="document.getElementById('Friday1').style.display='block'">Friday</button>
             <div id="Friday1">
-            <button>10:00 - 10:40</button>
+                <button id="close1" onclick="close10()">&#10006</button>
+            <button onclick="tex1FAY()">10:00 - 10:40</button>
             <div id="tex1FAY"></div>
-            <button>10:40 - 11:20</button>
+            
+            <button onclick="text2FAY()">10:40 - 11:20</button>
             <div id="text2FAY"></div>
-            <button>12:00 - 12:40</button>
+            <button onclick="text3FAY()">11:20 - 12:40</button>
             <div id="text3FAY"></div>
-            <button>12:40 - 13:20</button>
-            <div id="text4FAY"></div>
-            <button>13:20 - 14:00</button>
+            <button onclick="text5FAY()">12:40 - 13:20</button>
             <div id="text5FAY"></div>
-            <button>14:00 - 14:40</button>
+            <button onclick="text6FAY()">13:20 - 14:00</button>
             <div id="text6FAY"></div>
-            <button>14:00 - 14:40</button>
+            <button onclick="text7FAY()">14:00 - 14:40</button>
             <div id="text7FAY"></div>
+            <button onclick="text8FAY()">14:00 - 14:40</button>
+            <div id="text8FAY"></div>
+            </div>
             </div>
            
            </details>
         </details>
+    
     </div>
     <script src="script.js">
       
