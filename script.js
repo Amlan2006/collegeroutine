@@ -8,7 +8,7 @@ const AIML1AX={
         room:" BREAK"
     },
     monday3:{
-        period:"CH(AM)191",
+        period:"CH(AM)191 LAB",
         room:415
     },
     monday4:{
@@ -41,7 +41,7 @@ const AIML1AX={
 
     },
     tuesday5:{
-        period:"HU191",
+        period:"HU191 LAB",
         room:405
     },
     tuesday6:{
@@ -49,7 +49,7 @@ const AIML1AX={
         room:118
     },
     wednesday1:{
-        period:"CS191",
+        period:"CS191 LAB",
         room:316
     },
     thursday1:{
@@ -137,7 +137,7 @@ const AIML1AY={
 
     },
     wednesday1:{
-        period:"CH191",
+        period:"CH191 LAB",
         room:416
     },
     wednesday2:{
@@ -161,7 +161,7 @@ const AIML1AY={
         room:516
     },
     thursday4:{
-        period:"CS191",
+        period:"CS191 LAB",
         room:"423B"
     },
         friday1:{
@@ -173,7 +173,7 @@ const AIML1AY={
         room:516
     },
     friday3:{
-        period:"HU191",
+        period:"HU191 LAB",
         room:405
     },
     friday4:{
